@@ -3,7 +3,7 @@
 # print(len(L))
 # print(min(L))
 # print(max(L))
-# print(sorted(L))
+# print(sorted(L)) #note sorted sorts by element of 1st param
 # print(sorted(L,reverse=True))
 
 # print(sorted(L1,reverse=True))

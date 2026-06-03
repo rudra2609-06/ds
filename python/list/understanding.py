@@ -111,3 +111,7 @@
 
 # If direction and step don't match,
 # the slice is EMPTY.
+
+
+# [  x + sum(y for y in l1 if y > x)  |  for x in l1  |  no condition  ]
+#          (what you append)                 (loop)
