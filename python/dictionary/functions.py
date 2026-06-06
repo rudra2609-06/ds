@@ -10,7 +10,8 @@ student = {
 
 # print(len(student))
 # print(min(student))
-# print(max(student))
+# print(max(student)) #compare using keys
+# max(d, key=d.get) compare using values
 # print(sorted(student)) #sorted retuns list 
 # print(sorted(student,reverse=True))
 
