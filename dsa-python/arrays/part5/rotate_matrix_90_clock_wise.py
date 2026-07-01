@@ -1,3 +1,10 @@
+# LeetCode Notes:
+# Problem: Rotate an n x n matrix by 90 degrees clockwise.
+# Idea: Transpose the matrix, then reverse every row.
+# Trick: Transpose turns rows into columns, and row reverse completes the clockwise turn.
+# Dry run: first column [1,5,9,13] becomes first row after transpose + reverse.
+# TC and SC: O(N^2) time because every cell is touched, O(1) space because the matrix is changed in-place.
+
 # we have n*n square matrix we need to rotate it by 90 deg clockwise
 
 # if matrix is square matrix than no.of rows = no.of cols

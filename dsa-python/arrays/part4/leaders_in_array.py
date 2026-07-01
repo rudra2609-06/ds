@@ -1,3 +1,10 @@
+# LeetCode Notes:
+# Problem: Find all leaders in the array. A leader is greater than everything to its right.
+# Idea: Scan from right to left and keep the biggest value seen so far.
+# Trick: The last element is always a leader.
+# Dry run: [10,22,12,3,0,6] -> leaders found from right are 6, 12, 22.
+# TC and SC: O(N) time because we scan once from the back, O(N) space because leaders are stored in the result.
+
 l1 = [10,22,12,3,0,6]
 
 # leaders_of_l1 = []

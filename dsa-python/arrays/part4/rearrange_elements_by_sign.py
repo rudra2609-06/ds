@@ -1,3 +1,10 @@
+# LeetCode Notes:
+# Problem: Rearrange the array so positives and negatives come alternately.
+# Idea: Write positives at even indices and negatives at odd indices.
+# Trick: Separate write positions keep the original order inside positive and negative groups.
+# Dry run: [3,1,-2,-5,2,-4] -> fill even with positives and odd with negatives -> [3,-2,1,-5,2,-4].
+# TC and SC: O(N) time because we scan once, O(N) space because a result array is used.
+
 # You are given an array which has equal number of positives and negatives in it therefore array size will be always even. You need to re-arrange that array.
 #Rearrange means one positive,one negative,one positive,...
 

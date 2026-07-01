@@ -1,3 +1,10 @@
+# LeetCode Notes:
+# Problem: Find the element that appears more than n/2 times.
+# Idea: Use Boyer-Moore voting with one candidate and one vote count.
+# Trick: Different elements cancel each other, but the true majority can never disappear fully.
+# Dry run: [2,2,3,3,1,2,2] -> 2 survives all canceling, so answer is 2.
+# TC and SC: O(N) time because we scan the array, O(1) space because only two variables are used.
+
 # Given an array nums of size n, return the majority element.
 
 # The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.

@@ -1,3 +1,10 @@
+# LeetCode Notes:
+# Problem: If a cell is 0, make its full row and column 0 using only original zero positions.
+# Idea: Use first row and first column as marker storage.
+# Trick: Save whether the first row or first column had a zero before using them as markers.
+# Dry run: zero positions mark their row and column, then marked rows and cols are turned to 0.
+# TC and SC: O(N*M) time because the matrix is scanned a few times, O(1) space because markers are inside the matrix.
+
 # we are given n*m matrix constisting only 1 and 0 what i need to do is wherever i find 0 that row and that col should be converted to 0 after that
 # there is catch in problem only those 0 should be converted which are present initially in the problem not those which are converted 
 

@@ -1,3 +1,10 @@
+# LeetCode Notes:
+# Problem: Print all matrix elements in spiral order.
+# Idea: Keep left, right, top and bottom boundaries and shrink them after each side.
+# Trick: Finish one outer layer at a time.
+# Dry run: print top row, right col, bottom row, left col, then repeat for the inner layer.
+# TC and SC: O(N*M) time because each cell is visited once, O(N*M) space for the output list.
+
 # you are given a n*m matrix
 # you need to print it into spiral matrix
 

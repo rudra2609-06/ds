@@ -1,3 +1,10 @@
+# LeetCode Notes:
+# Problem: Find the subarray with maximum sum and return the sum.
+# Idea: At each index, either start a new subarray or extend the old one.
+# Trick: A negative running sum is useless for future elements, so restart.
+# Dry run: [-2,-3,4,-1,-2,1,5,-3] -> best subarray is [4,-1,-2,1,5] with sum 7.
+# TC and SC: O(N) time because we scan once, O(1) space because only running values are stored.
+
 # Given an integer array nums, find the subarray with the largest sum, and return its sum
 
 

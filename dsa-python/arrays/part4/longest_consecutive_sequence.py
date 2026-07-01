@@ -1,3 +1,10 @@
+# LeetCode Notes:
+# Problem: Find the length of the longest consecutive sequence in an unsorted array.
+# Idea: Put values in a set and only start counting from sequence starts.
+# Trick: If x-1 exists, then x is not a start, so skip it.
+# Dry run: [102,4,100,1,101,3,2,1,1] -> start at 1 and count 1,2,3,4 -> answer 4.
+# TC and SC: O(N) average time because set lookups are O(1), O(N) space because values are stored in a set.
+
 l1 = [102,4,100,1,101,3,2,1,1]
 res = 1
 
