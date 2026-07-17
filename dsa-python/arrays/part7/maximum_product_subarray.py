@@ -1,11 +1,6 @@
-# you are given an array you need to return sub-array whose product is tend to be maximum from all other subarray's sum
+# you are given an array you need to return sub-array whose product is tend to be maximum from all other subarray's product
 
-# arr = [2,3,-2,4]
-arr = [0,2]
-
-
-
-
+arr = [2,3,-2,4]
 
 # def maximum_product_subarray(ar):
 # 	res = -1

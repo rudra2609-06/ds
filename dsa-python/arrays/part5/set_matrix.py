@@ -55,12 +55,6 @@ rows = 4
 # 		if matrix[i][j] == 0:
 # 			zero_rows.add(i)
 # 			zero_cols.add(j)
-
-
-# 
-# 
-# 
-# 
 #  print(zeros_idx)
 
 # for i in range(rows):
@@ -73,6 +67,8 @@ rows = 4
 
 # TC : O(N*M)
 # SC: O(N*M)
+
+
 
 # --------- Optimal Approach ---------
 

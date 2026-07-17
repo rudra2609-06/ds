@@ -1,8 +1,10 @@
 # LeetCode Notes:
 # Problem: Find the length of the longest subarray whose sum is k.
-# Idea: Use prefix sum and remember the first index where each prefix was seen.
+# Idea: Use prefix sum and remember the 
+#  index where each prefix was seen.
 # Trick: If prefixSum-k was seen before, the subarray in between has sum k.
-# Dry run: [10,5,2,7,1,-10], k=15 -> full array sums to 15, so answer becomes 6.
+# Dry run: [
+# 10,5,2,7,1,-10], k=15 -> full array sums to 15, so answer becomes 6.
 # TC and SC: O(N) time because each index is processed once, O(N) space because prefix sums go in a map.
 
 # Brute force:

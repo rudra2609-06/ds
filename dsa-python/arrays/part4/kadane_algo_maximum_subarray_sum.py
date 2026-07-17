@@ -8,7 +8,7 @@
 # Given an integer array nums, find the subarray with the largest sum, and return its sum
 
 
-l1 = [-2,-3,4,-1,-2,1,5,-3]
+l1 = [1,-2,3,-1,-4,4]
 
 
 # ------------ Brute Force Approach ----------------
@@ -59,6 +59,8 @@ for i in range(1, len(l1)):
         max_sum += l1[i]  # extend previous subarray
     
     res = max(res, max_sum)  # update overall result
+
+
 	# endIndex = i
 
 print(res)

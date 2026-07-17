@@ -1,5 +1,8 @@
 # LeetCode Notes:
 # Problem: Count how many subarrays have sum exactly k.
+
+
+
 # Idea: Use prefix sum and store how many times each prefix sum appeared.
 # Trick: If prefixSum-k appeared before, all those positions make valid subarrays ending here.
 # Dry run: [1,2,3,-3,1,1,1,4,2,-3], k=3 -> every matching old prefix adds to count.
@@ -28,7 +31,6 @@ k = 3
 # SC : O(1)
 
 # ------------ Optimal Solution ---------------
-
 
 prefix_sum_map = {0: 1}
 
