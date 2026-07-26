@@ -63,7 +63,7 @@
 # --------------------- Another Variety ---------------------
 
 # given that the array will contain positive and negative numbers but not equal they will unequal
-#still we have to re-arrange them alternatively but if any number left just add them so preserve the relative order
+# still we have to re-arrange them alternatively but if any number left just add them so preserve the relative order
 # fall back to brute force
 
 # l1 = [1,2,-4,-5,3,-1,6,7]
