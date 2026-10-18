@@ -24,20 +24,24 @@ def printLl(head):
 
 # Deletion of head node and returning new head that is very next element
 
-# def deleteHead(head):
+def deleteHead(head):
 
-# 	# linked list is empty
-# 	if head == None:
-# 		return head
-# 	temp = head
-# 	head = head.next
-# 	del temp
-# 	return head
+	# linked list is empty
+	if head == None:
+		return head
+	# if ll only contains one element
+	if head.next == None:
+		del head
+		return None
+	temp = head
+	head = head.next
+	del temp
+	return head
 
-# head = deleteHead(head=head)
+head = deleteHead(head=head)
 
-# # cross check new head is changed
-# printLl(head)
+# cross check new head is changed
+printLl(head)
 
 
 

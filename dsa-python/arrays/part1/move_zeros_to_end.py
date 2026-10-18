@@ -48,7 +48,7 @@ def optimal_move_zeros(arr):
         return arr
     
     for rightPointer in range(leftPointer + 1, len(arr)):
-        if arr[rightPointer] != 0:
+        if arr[rightPointer] != 0:  
             arr[rightPointer], arr[leftPointer] = arr[leftPointer], arr[rightPointer]
             leftPointer += 1
     
