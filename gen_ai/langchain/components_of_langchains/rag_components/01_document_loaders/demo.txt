@@ -1,0 +1,7 @@
+Linear regression is a statistical and machine learning method used to model the relationship between a dependent output variable and one or more independent input features.
+What is Linear Regression?
+• Core idea: It finds the straight line (or surface) that best represents the association between data points.
+• Dependent variable (Y): The target outcome you want to predict.
+• Independent variable (X): The input feature or predictor used to make the prediction.
+• Goal: To minimize the error or distance between the actual data points and the predicted line.
+Learn the basics of this method with a beginner's guide to simple linear regression:

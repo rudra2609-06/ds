@@ -1,0 +1,47 @@
+A vector store is system designed to store and retrieve data represented as numerical vectors
+
+key features of vector stores:
+1.Storage:- Helps in storing vectors and its meta-data. Can be stored in-memory (RAM) or on-disk(hard drive)
+2.Similarity Search:- Helps in retrieving the most similar vector with respect to query vector
+3.Indexing:- For fast searching
+4.CRUD Operations
+
+Use Cases:
+1.Seamantic searching
+2.RAG
+3.Recommender Systems
+4.Image/Multi-media Search
+
+Vector Store V/S Vector DataBase
+
+If system provide just storage and retrival of vector it is just vector store (light weight)
+
+But if provides Role Based Control, ACID transactions, Concurrency Control , Distributed Arc they are Vector DataBase (Heavy)
+
+Every Vector DataBase is Vector Store
+
+Chroma DB is very light Vector DB
+
+User
+#  └── Tenant
+#       ├── Database 1
+#       │    ├── Collection 1
+#       │    │    ├── Document 1
+#       │    │    ├── Document 2
+#       │    │    └── ...
+#       │    └── Collection 2
+#       │         ├── Document 1
+#       │         └── ...
+#       │
+#       └── Database 2
+#            ├── Collection 1
+#            │    ├── Document 1
+#            │    └── ...
+#            └── Collection 2
+#                 ├── Document 1
+#                 └── ...
+Each Document can contain:
+#    - ID: Unique identifier for the document
+#    - Text: Original text or chunk of text
+#    - Embedding: Vector representation of the text
+#    - Metadata: Additional information about the document
