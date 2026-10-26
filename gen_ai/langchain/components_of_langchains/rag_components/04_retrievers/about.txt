@@ -1,0 +1,15 @@
+Retrievers in langchain are the components which helps us to fetch the relevant documents from data source w.r.t to provided query.
+
+In langchain all Retrievers are runnables which means we can add them in chains
+
+Types of Retrievers (basis of data source):
+
+1.Wikipedia Retrievers
+2.Vector Store Based Retrievers
+3.Archive Retrievers
+
+Types of Retrievers (basis on Search Stratergy)
+
+1.MMR (Maximal Marginal Relevance) Retriever
+2.Multi-query Retriever
+3.Contextual Compression Retriever
